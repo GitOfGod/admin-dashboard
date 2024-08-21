@@ -44,8 +44,14 @@ aside {
 .logo-text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 10px 50px;
     align-items: center;
+}
+
+.logo-text h1 {
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 .nav-item-container {
@@ -68,8 +74,8 @@ aside {
 }
 
 .nav-item {
-    margin-left: 10px;
-    font-size: 20px;
+    margin: 5px 0 5px 10px;
+    font-size: 18px;
 }
 
 a {
