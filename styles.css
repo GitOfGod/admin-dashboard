@@ -74,7 +74,7 @@ aside {
 }
 
 .nav-item {
-    margin: 5px 0 5px 10px;
+    margin: 5px 0 5px 20px;
     font-size: 18px;
 }
 
@@ -82,6 +82,9 @@ a {
     text-decoration: none;
 }
 
+.support-nav {
+    margin-top: 40px;
+}
 
 /** HEADER STYLES **/
 header {
