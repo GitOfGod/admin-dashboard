@@ -33,6 +33,11 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
+svg {
+    width: 24px;
+    height: 24px;
+}
+
 /** SIDEBAR STYLES **/
 aside {
     background-color:#042f2e;
@@ -94,6 +99,7 @@ header {
     grid-template-rows: 1fr 1fr;
 }
 
+/*
 .greeting-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
