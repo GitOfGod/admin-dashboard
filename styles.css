@@ -93,9 +93,11 @@ a {
 
 /** HEADER STYLES **/
 header {
+    z-index: 1;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     padding: 8px 32px 8px 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 input {
