@@ -93,6 +93,9 @@ a {
 
 /** HEADER STYLES **/
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     z-index: 1;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
@@ -144,7 +147,7 @@ input {
 #greeting-profile {
     margin-right: 10px;
     width: 80px;
-    height: 80px
+    height: 80px;
 }
 
 .user-greeting p {
@@ -265,6 +268,10 @@ h5 {
     margin-left: 16px;
     display: flex;
     align-items: center;
+}
+
+.trending-item:not(:first-child) {
+    padding-top: 12px;
 }
 
 .creator-project {
