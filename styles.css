@@ -241,7 +241,7 @@ h4 {
 }
 
 .announcements-item {
-    padding: 12px 0px;
+    padding-bottom: 12px
 }
 
 h5 {
@@ -249,6 +249,7 @@ h5 {
 }
 
 .announcements-item:not(:first-child) {
+    padding-top: 12px;
     border-top: 1px solid #e5e7eb;
 }
 
