@@ -231,6 +231,9 @@ h4 {
     gap: 20px;
 }
 
+.grey-text {
+    color: #6b7280;
+}
 
 
 .trending-list, .announcements-list {
