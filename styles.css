@@ -188,7 +188,36 @@ main {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);   
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(200px, auto);
     gap: 25px 25px;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    border-left: 8px solid #085E5C;
+    padding: 0px 20px 24px 20px;
+
+}
+
+.project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.project-card > p {
+    min-height: 45%;
+    font-size: 0.9em ;
+    color:#6b7280;
 }
 
