@@ -234,14 +234,11 @@ h4 {
     width: 80%;
     background-color: white;
     border-radius: 8px;
-}
-
-.announcements-list {
     padding: 24px 16px;
 }
 
 .announcements-item {
-    padding-bottom: 12px
+    padding: 0px 20px 12px 20px;
 }
 
 h5 {
@@ -259,3 +256,21 @@ h5 {
 }
 
 
+.avatar {
+    width: 54px;
+    padding-right: 20px;
+}
+
+.trending-item {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.creator-project {
+    font-size: 0.8em;
+}
+
+.creator-project > p {
+    margin: 0;
+}
